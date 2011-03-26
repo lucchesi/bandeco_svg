@@ -1,0 +1,9 @@
+This is a little widget do show graphically Unicamp's cafeteria("bandeco") menu.
+(aka "bandejão", lit. "large tray")
+
+The data is read from the site by curl, parsed with php/regex and a JSONP is 
+generated.
+
+Then, that info is imported into a SVG, with javascript to handle it and show 
+the apropriate drawing[todo], also showing text when the mouse is over each 
+section of the tray.
