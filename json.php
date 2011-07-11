@@ -31,11 +31,11 @@
 	function JSONP($suco, $prato, $sobremesa, $salada, $pts)
 	{
 		echo("bandeco({" . 
-		     "suco: \"" . $suco . "\", " . 
-		     "prato: \"" . $prato . "\", " . 
-		     "sobremesa: \"" . $sobremesa . "\", " . 
-		     "salada: \"" . $salada . "\", " . 
-		     "pts: \"" . $pts . "\"" . 
+		     "\"suco\": \"" . $suco . "\", " . 
+		     "\"prato\": \"" . $prato . "\", " . 
+		     "\"sobremesa\": \"" . $sobremesa . "\", " . 
+		     "\"salada\": \"" . $salada . "\", " . 
+		     "\"pts\": \"" . $pts . "\"" . 
 		     "})\n");
 	}
 	
